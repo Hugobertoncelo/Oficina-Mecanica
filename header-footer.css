@@ -31,7 +31,7 @@ header {
   justify-content: space-between;
   min-height: 130px;
   height: 24vh;
-  background-color: var(--bg-color);
+  background-image: url("./imgs/header.avif");
 }
 header .topHeader {
   display: flex;

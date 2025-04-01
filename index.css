@@ -249,10 +249,11 @@ body {
   border: 1px solid var(--secondary-color);
   padding: 2rem 3rem;
   box-shadow: var(--box-shadow-1);
-  transition: 0.2s;
+  transition: 0.5s;
+  background-color: #8034a1;
 }
 .tipsContainer .tipItem:hover {
-  background-color: #d9dedd;
+  background-color: #cc57fa;
 }
 
 @media screen and (max-width: 768px) {
