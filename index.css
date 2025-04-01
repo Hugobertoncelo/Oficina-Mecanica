@@ -250,11 +250,12 @@ body {
   padding: 2rem 3rem;
   box-shadow: var(--box-shadow-1);
   transition: 0.5s;
-  background-color: #8034a1;
+  /* background-color: #8034a1; */
+  background-image: url("./imgs/bg6.avif");
 }
-.tipsContainer .tipItem:hover {
+/* .tipsContainer .tipItem:hover {
   background-color: #cc57fa;
-}
+} */
 
 @media screen and (max-width: 768px) {
   .homeWelcome .container {
