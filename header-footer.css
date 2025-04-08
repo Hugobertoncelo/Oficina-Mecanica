@@ -45,6 +45,23 @@ header .topHeader {
 ul {
   list-style-type: none;
 }
+
+.logo {
+  animation: simpleFloat 2s ease-in-out infinite;
+}
+
+@keyframes simpleFloat {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.2rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .workingDays {
   width: 180px;
   background-color: #fff;
@@ -370,7 +387,7 @@ footer .lowerFooter {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 140px;
+  width: 170px;
   height: 400px;
   color: var(--white-color);
   background-color: var(--primary-color);
