@@ -79,7 +79,7 @@ form input[type="submit"] {
   height: 50px;
   text-transform: uppercase;
   cursor: pointer;
-  transition: 0.1s;
+  transition: 0.5s;
   border: none;
 }
 form input[type="submit"]:hover {

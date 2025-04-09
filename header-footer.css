@@ -31,7 +31,9 @@ header {
   justify-content: space-between;
   min-height: 130px;
   height: 24vh;
-  background-image: url("./imgs/header.avif");
+  background-image: url("./imgs/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header .topHeader {
   display: flex;
@@ -91,7 +93,7 @@ ul {
   color: rgb(9, 8, 15);
 }
 .socialLinks i {
-  transition: all 0.3s;
+  transition: all 0.7s;
 }
 .workingHrsHeading {
   text-align: center;
@@ -115,7 +117,7 @@ nav > ul {
   align-items: center;
   height: 3rem;
   color: var(--white-color);
-  background-color: var(--primary-color);
+  background-color: rgba(0, 0, 255, 0.4);
   z-index: 2;
 }
 
@@ -128,6 +130,8 @@ nav > ul > li {
   align-items: center;
   text-transform: uppercase;
   position: relative;
+  border-radius: 20px;
+  transition-duration: 0.7s;
 }
 nav > ul > li > a {
   width: 100%;
@@ -291,7 +295,7 @@ footer .lowerFooter {
 }
 .footerSection1 .socialLinks i {
   font-size: 1.5rem;
-  transition: all 0.2s;
+  transition: all 0.7s;
 }
 .socialLinks i:hover {
   color: var(--tertiary-color);
@@ -391,16 +395,21 @@ footer .lowerFooter {
   height: 400px;
   color: var(--white-color);
   background-color: var(--primary-color);
+  border-radius: 20px;
 }
+
 .burgorMenu nav > ul > li {
   background-color: var(--primary-color);
   border-bottom: 1.5px solid var(--secondary-color);
   justify-content: start;
   padding: 0 9px;
+  border-radius: 13px;
 }
+
 .burgorMenu nav > ul li:hover {
-  background-color: #9a415d;
+  background-color: #3f2e8d;
 }
+
 .burgorMenu nav > ul > li > a {
   width: 100%;
   height: 100%;
@@ -412,18 +421,14 @@ footer .lowerFooter {
   display: flex;
   flex-direction: column;
   position: absolute;
-  background-color: #9a415d;
+  background-color: #7c5fff;
   z-index: 10;
   top: -1px;
   left: 140px;
   text-transform: uppercase;
   width: 100%;
-  /* border: 1.5px solid var(--secondary-color); */
+  border-radius: 20px;
   border-bottom: none;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  overflow: hidden;
-  visibility: hidden;
 }
 
 .burgorMenu .menuSubItem li {
@@ -434,7 +439,7 @@ footer .lowerFooter {
   align-items: center;
   border-bottom: 1.5px solid var(--primary-color);
   /* padding-right: 5px; */
-  background-color: #9a415d;
+  background-color: #152b85;
 }
 .burgorMenu .menuSubItem li:hover {
   background-color: var(--primary-color);
