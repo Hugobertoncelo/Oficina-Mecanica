@@ -86,6 +86,7 @@ body {
   font-size: 2rem;
   text-transform: uppercase;
   padding-bottom: 1rem;
+  text-align: center;
 }
 .offerImgs > div {
   height: 350px;
@@ -156,22 +157,27 @@ body {
   gap: 1rem;
   justify-content: space-between;
 }
+
 .serviceItem {
   height: 300px;
   width: 525px;
   position: relative;
 }
+
 .homeServicesContainer {
   padding-top: 5rem;
 }
+
 .homeServicesContainer .header {
   display: flex;
   justify-content: space-between;
 }
+
 .homeServicesContainer .header > h1 {
   font-size: 2rem;
   padding-bottom: 1rem;
 }
+
 .homeServicesContainer .header span {
   width: 200px;
   height: 50px;
@@ -182,10 +188,13 @@ body {
   align-items: center;
   font-weight: bold;
   border-radius: 5px;
+  transition: 0.5s;
 }
+
 .homeServicesContainer .header span:hover {
   background-color: var(--primary-color);
 }
+
 .darkBg {
   position: relative;
   overflow: hidden;
@@ -222,6 +231,7 @@ body {
   padding: 1rem 0;
   position: relative;
 }
+
 .divider hr {
   position: absolute;
   bottom: 2rem;
@@ -238,24 +248,22 @@ body {
   text-transform: uppercase;
   font-size: 2rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
 .tipsContainer {
   display: flex;
   gap: 2rem;
-
   margin-bottom: 6rem;
 }
+
 .tipsContainer .tipItem {
   border: 1px solid var(--secondary-color);
   padding: 2rem 3rem;
   box-shadow: var(--box-shadow-1);
-  transition: 0.5s;
-  /* background-color: #8034a1; */
-  background-image: url("./imgs/bg6.avif");
+  background-image: url("./imgs/bg6.jpg");
+  border-radius: 13px;
+  color: white;
 }
-/* .tipsContainer .tipItem:hover {
-  background-color: #cc57fa;
-} */
 
 @media screen and (max-width: 768px) {
   .homeWelcome .container {
@@ -341,22 +349,24 @@ body {
   .homeServicesContainer {
     padding-top: 3rem;
   }
+
   .homeServicesContainer .header {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 1rem;
   }
+
   .homeServicesContainer .header > h1 {
     font-size: 1.5rem;
-    /* padding-bottom: 1rem; */
+    text-align: center;
   }
+
   .specialOffers > h1 {
     font-size: 1.5rem;
     text-align: center;
-    /* text-transform: uppercase; */
-    /* padding-bottom: 1rem; */
   }
+
   .row {
     display: flex;
     flex-direction: column;
