@@ -2,6 +2,7 @@
   display: flex;
   gap: 3rem;
 }
+
 .companyWiseServiceCon ul {
   list-style-type: disc;
   padding-left: 15px;
@@ -9,12 +10,22 @@
 
 .companyWiseServiceSect {
   padding: 3rem 3rem;
+  background-image: url("./imgs/bgcompany.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+.companyWiseServiceSect > * {
+  position: relative;
+  z-index: 2;
+}
+
 .companyWiseServiceSect > h1 {
   text-transform: uppercase;
   padding-bottom: 1.5rem;
   font-size: 2rem;
 }
+
 .serviceImg {
   display: flex;
   flex-direction: column;
@@ -26,11 +37,13 @@
   border-radius: 10px;
   box-shadow: var(--box-shadow-1);
 }
+
 .serviceDetail {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
 }
+
 .serviceImg a {
   display: flex;
   justify-content: center;
@@ -45,9 +58,11 @@
   text-transform: uppercase;
   background-color: var(--appointment-color);
 }
+
 .serviceImg a:hover {
   background-color: var(--secondary-color);
 }
+
 .serviceImg a i {
   padding-bottom: 3px;
 }
@@ -56,24 +71,30 @@
   .companyWiseServiceSect {
     padding: 2rem 2rem;
   }
+
   .companyWiseServiceCon {
     gap: 3rem;
     flex-direction: column-reverse;
   }
+
   .serviceImg {
     flex-direction: row-reverse;
     gap: 1rem;
   }
+
   .serviceImg img {
     width: 244px;
   }
+
   .serviceImg a i {
     display: none;
   }
+
   .serviceImg a {
     height: 70px;
     text-align: center;
   }
+
   .serviceImg .apptmnt {
     display: flex;
     align-self: end;
@@ -84,30 +105,38 @@
   .companyWiseServiceSect {
     padding: 1rem 1rem 2rem 1rem;
     padding: 1rem 1.3rem 2rem 1.3rem;
+    background-size: cover;
+    background-position: center;
   }
+
   .companyWiseServiceCon {
     flex-direction: column-reverse;
     gap: 3rem;
   }
+
   .serviceImg {
     flex-direction: column-reverse;
     gap: 2rem;
   }
+
   .serviceDetail {
     grid-template-columns: repeat(1, 1fr);
     gap: 3rem;
   }
+
   .serviceDetailItem {
-    border: 1px solid var(--secondary-color);
+    border: 1px solid rgb(135, 15, 247);
     box-shadow: var(--box-shadow-1);
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 1rem 1.5rem;
     transition: 0.2s;
   }
+
   .serviceDetailItem:hover {
     transform: scale(1.03);
     background-color: aliceblue;
   }
+
   .serviceImg img {
     width: 100%;
   }
@@ -117,6 +146,7 @@
   .companyWiseServiceSect > h1 {
     font-size: 1.8rem;
   }
+
   .companyWiseServiceSect {
     padding: 1rem 1rem 2rem 1rem;
   }

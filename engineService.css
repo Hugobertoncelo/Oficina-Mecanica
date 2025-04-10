@@ -1,30 +1,37 @@
 #engineServiceNav {
   background-color: (--secondary-color);
 }
+
 .services {
   padding: 50px 60px;
   margin: auto;
+  background-color: rgb(172, 250, 250);
 }
+
 .serviceTop {
   font-size: medium;
   width: 100%;
   justify-content: space-between;
 }
+
 .ServicesSection {
   width: fit-content;
   font-style: normal;
   width: 100%;
   justify-content: space-around;
 }
+
 .subservice {
   text-align: justify;
   font-size: 20px;
 }
+
 .subservice img {
   border-radius: 5px;
   width: 500px;
   transition: all 0.4s ease;
 }
+
 .subservice .image {
   overflow: hidden;
   font-size: 0;
@@ -32,13 +39,16 @@
   border-radius: 10px;
   margin: 1rem 0;
 }
+
 .subservice img:hover {
   transform: scale(1.2);
 }
+
 .subservice2Dis {
   font-size: 20px;
   text-align: justify;
 }
+
 .subservice2Dis .image2 {
   overflow: hidden;
   font-size: 0;
@@ -47,12 +57,14 @@
   border-radius: 10px;
   margin-top: 1rem;
 }
+
 .subservice2Dis .image2 img {
   padding: 0;
   width: 600px;
   height: 300px;
   transition: all 0.3s ease;
 }
+
 .subservice2Dis .image2 img:hover {
   transform: scale(1.2);
 }
@@ -70,32 +82,38 @@
   .services h4 {
     font-size: 1.2rem;
   }
+
   .subservice img {
     border-radius: 0px;
     width: 100%;
     transition: all 0.4s ease;
   }
+
   .subservice2Dis .image2 img {
     padding: 0;
     border-radius: 0;
     width: 100%;
     height: auto;
   }
+
   .subservice2Dis .image2 {
     font-size: 0;
     line-height: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
   .subservice .image {
     font-size: 0;
     line-height: 0;
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
+
   .subservice {
     font-size: 16px;
   }
+
   .subservice2Dis {
     text-align: justify;
   }

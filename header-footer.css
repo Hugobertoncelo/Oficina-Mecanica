@@ -15,16 +15,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 .home {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
 }
+
 header {
   display: flex;
   flex-direction: column;
@@ -35,15 +38,18 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 header .topHeader {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 100%;
 }
+
 .topHeader .contact a:hover {
   color: var(--secondary-color);
 }
+
 ul {
   list-style-type: none;
 }
@@ -73,28 +79,35 @@ ul {
   border-radius: 5px;
   z-index: 10;
 }
+
 .day6 {
   color: red;
   font-weight: bold;
 }
+
 .workingHrs:hover .workingDays {
   visibility: visible;
 }
+
 .workingHrs {
   position: relative;
 }
+
 .workingDays > div {
   padding: 0.5rem 0.7rem;
 }
+
 .socialLinks {
   display: flex;
   gap: 1rem;
   font-size: 1.2rem;
   color: rgb(9, 8, 15);
 }
+
 .socialLinks i {
   transition: all 0.7s;
 }
+
 .workingHrsHeading {
   text-align: center;
   cursor: pointer;
@@ -104,6 +117,7 @@ ul {
 .workingHrsHeading:hover .fa-caret-down {
   visibility: hidden;
 }
+
 .sticky {
   position: fixed;
   top: 0;
@@ -111,6 +125,7 @@ ul {
   width: 100%;
   z-index: 10;
 }
+
 nav > ul {
   display: flex;
   justify-content: space-around;
@@ -133,6 +148,7 @@ nav > ul > li {
   border-radius: 20px;
   transition-duration: 0.7s;
 }
+
 nav > ul > li > a {
   width: 100%;
   height: 100%;
@@ -140,15 +156,19 @@ nav > ul > li > a {
   justify-content: center;
   align-items: center;
 }
+
 nav ul li:hover {
   background-color: var(--secondary-color);
 }
+
 nav .appointment {
   background-color: var(--appointment-color) !important;
 }
+
 .menuItem {
   position: relative;
 }
+
 .menuSubItem {
   display: flex;
   flex-direction: column;
@@ -163,16 +183,20 @@ nav .appointment {
   overflow: hidden;
   visibility: hidden;
 }
+
 .menuSubItem a {
   display: block;
   width: 100%;
 }
+
 .menuItem ul > li {
   padding: 5px 10px;
 }
+
 .menuItem:hover .menuSubItem {
   visibility: visible;
 }
+
 .menu {
   position: relative;
 }
@@ -181,12 +205,15 @@ nav .appointment {
   cursor: pointer;
   font-size: 1.1rem;
 }
+
 #menuToggler i:hover {
   color: var(--secondary-color);
 }
+
 .menuBtnDispNone {
   display: none;
 }
+
 .menuDisplay {
   display: flex;
   justify-content: center;
@@ -203,6 +230,7 @@ nav .appointment {
 .activeItem {
   background-color: var(--active-color) !important;
 }
+
 .activeSubItem {
   background-color: var(--active-color);
 }
@@ -213,8 +241,8 @@ nav .appointment {
   position: absolute;
   right: 1rem;
 }
+
 .menuItem:hover i {
-  /* display: none; */
   visibility: hidden;
 }
 
@@ -228,17 +256,19 @@ footer .upperFooter {
   display: flex;
   padding: 2rem 2.7rem 0 0;
 }
+
 footer .lowerFooter {
   min-height: 50px;
   display: flex;
   flex-direction: column;
-
   align-items: center;
   justify-content: space-around;
 }
+
 .lowerFooter hr {
   width: 93%;
 }
+
 .lowerFooterContent {
   display: flex;
   justify-content: space-between;
@@ -246,32 +276,39 @@ footer .lowerFooter {
   font-size: 0.8rem;
   font-weight: 500;
 }
+
 .lowerFooterContent a:hover {
   color: var(--bg-color);
 }
+
 .lowerFooter .developersInfo {
   display: flex;
   gap: 10px;
 }
+
 .footerSection1 {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .footerSection2 {
   width: 100%;
 }
+
 .footerSection3 {
   width: 100%;
   padding-left: 1rem;
 }
+
 .footerSection4 {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .footerSection1 .logoText {
   font-size: 2rem;
   font-weight: 900;
@@ -281,6 +318,7 @@ footer .lowerFooter {
   align-items: center;
   width: 100%;
 }
+
 .footerSection1 .smallText {
   font-size: 0.7rem;
   font-weight: 700;
@@ -289,24 +327,29 @@ footer .lowerFooter {
   left: -12px;
   color: var(--bg-color);
 }
+
 .footerSection1 .socialLinks {
   padding-top: 6rem;
   color: var(--white-color);
 }
+
 .footerSection1 .socialLinks i {
   font-size: 1.5rem;
   transition: all 0.7s;
 }
+
 .socialLinks i:hover {
   color: var(--tertiary-color);
   transform: scale(2);
 }
+
 .footerSection2 {
   padding: 15px 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .footerSection2 .footer2Hdng {
   font-size: 1.3rem;
   font-weight: bold;
@@ -317,24 +360,30 @@ footer .lowerFooter {
   font-size: 1.3rem;
   padding-right: 5px;
 }
+
 .footerSection2 p {
   padding-left: 22px;
 }
+
 .footerSection3 {
   padding: 15px 10px;
 }
+
 .footerSection3 div {
   font-size: 1.3rem;
   font-weight: bold;
   color: var(--tertiary-color);
 }
+
 .footerSection3 ul {
   padding-left: 8px;
 }
+
 .footerSection3 ul li {
   padding-top: 5px;
   width: fit-content;
 }
+
 .footerSection3 ul li:hover {
   color: var(--bg-color);
 }
@@ -363,6 +412,7 @@ footer .lowerFooter {
   margin-bottom: 2px;
   transition: all 0.6s ease;
 }
+
 .burgorIconDiv i {
   width: 25px;
   height: 100%;
@@ -370,6 +420,7 @@ footer .lowerFooter {
   justify-content: center;
   align-items: center;
 }
+
 .burgorDivTranslate {
   margin-bottom: 0;
   width: 140px !important;
@@ -378,6 +429,7 @@ footer .lowerFooter {
   border-top-right-radius: 5px;
   border-bottom: 1.5px solid var(--secondary-color);
 }
+
 .burgorTranslate {
   transform: translateX(45px);
 }
@@ -438,9 +490,9 @@ footer .lowerFooter {
   justify-content: center;
   align-items: center;
   border-bottom: 1.5px solid var(--primary-color);
-  /* padding-right: 5px; */
   background-color: #152b85;
 }
+
 .burgorMenu .menuSubItem li:hover {
   background-color: var(--primary-color);
 }
@@ -451,19 +503,23 @@ footer .lowerFooter {
     width: 45px;
   }
 }
+
 @media screen and (max-width: 376px) {
   .lowerFooter hr {
     width: 81%;
   }
 }
+
 @media screen and (max-width: 660px) {
   nav .appointment {
     font-weight: bold;
     text-align: center;
   }
+
   .burgorMenu {
     display: block;
   }
+
   header nav > ul {
     display: none;
   }
@@ -472,6 +528,7 @@ footer .lowerFooter {
     z-index: 1;
     height: 22vh;
   }
+
   header .topHeader {
     display: flex;
     flex-direction: column;
@@ -499,10 +556,12 @@ footer .lowerFooter {
     bottom: 23px;
     font-size: 0.8rem;
   }
+
   .workingDays {
     left: -5px;
     width: 128px;
   }
+
   .topHeader img {
     width: 250px;
     margin-left: 10px;
@@ -514,44 +573,55 @@ footer .lowerFooter {
     padding-bottom: 1rem;
     gap: 1rem;
   }
+
   .footerSection1 {
     padding-left: 1rem;
   }
+
   .footerSection2 {
     text-align: center;
   }
+
   .footerSection3 {
     display: none;
   }
+
   .lowerFooterContent {
     flex-direction: column;
   }
+
   .lowerFooter .developersInfo {
     justify-content: center;
   }
+
   .copyRight {
     text-align: center;
   }
 }
+
 @media screen and ((min-width: 601px) and (max-width:768px)) {
   header .menuItem i {
     transition: 0.1s;
     position: absolute;
     right: 0.5rem;
   }
+
   header nav > ul > li > a {
     text-align: center;
   }
+
   footer .upperFooter {
     display: flex;
     flex-direction: column;
     padding: 0;
   }
+
   .footerSection1 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
+
   .footerSection1 .logoText {
     margin: 0;
     width: 14px;
@@ -563,9 +633,11 @@ footer .lowerFooter {
     gap: 1rem;
     padding: 2rem 1rem 1rem 1rem;
   }
+
   .footerSection2 div {
     width: fit-content;
   }
+
   .footerSection2 .address {
     width: 300px;
   }
@@ -573,6 +645,7 @@ footer .lowerFooter {
   .footerSection3 div {
     display: none;
   }
+
   .footerSection3 ul {
     padding-left: 8px;
     display: flex;
@@ -580,6 +653,7 @@ footer .lowerFooter {
     width: 100%;
     justify-content: center;
   }
+
   .footerSection4 iframe {
     border-radius: 2px;
     width: 82vw;
