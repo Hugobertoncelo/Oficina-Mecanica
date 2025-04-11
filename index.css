@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #eef8f5;
+  background-color: rgb(172, 250, 250);
 }
 
 .homeWelcome::before {
