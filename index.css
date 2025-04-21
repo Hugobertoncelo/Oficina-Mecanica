@@ -258,9 +258,9 @@ body {
   position: absolute;
   bottom: 2rem;
   width: 40%;
-  height: 2px;
+  height: 3px;
   border-radius: 2px;
-  background-color: #635d65;
+  background-color: #8605ff;
 }
 
 .carTips {
