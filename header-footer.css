@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #6a4679;
+  --primary-color: #053396;
   --secondary-color: #5f27c7;
   --appointment-color: #150368;
-  --tertiary-color: #6365e6;
+  --tertiary-color: #03d1f5;
   --active-color: #150368;
-  --bg-color: #22c59f;
+  --bg-color: #0ee3eb;
   --white-color: white;
   --box-shadow-1: 0 15px 25px rgba(83, 30, 228, 0.3);
   --transition-all: all 0.4s ease-in-out;
@@ -72,16 +72,26 @@ ul {
 
 .workingDays {
   width: 180px;
-  background-color: rgba(135, 135, 247);
+  background-color: rgb(37, 37, 250);
   box-shadow: var(--box-shadow-1);
   visibility: hidden;
   position: absolute;
-  border-radius: 5px;
+  border-radius: 18px;
   z-index: 10;
 }
 
+.workingDays div {
+  border-bottom: 1px solid #946af7;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.workingDays div:last-child {
+  border-bottom: none;
+}
+
 .day6 {
-  color: red;
+  color: rgb(243, 37, 37);
   font-weight: bold;
 }
 
@@ -193,11 +203,28 @@ nav .appointment {
   border-bottom-right-radius: 15px;
   overflow: hidden;
   visibility: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 430px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.menuSubItem li {
+  border-bottom: 1px solid #734dfc;
+}
+
+.menuSubItem li:last-child {
+  border-bottom: none;
 }
 
 .menuSubItem a {
   display: block;
   width: 100%;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .menuItem ul > li {
@@ -609,6 +636,12 @@ footer .lowerFooter {
 
   .copyRight {
     text-align: center;
+    margin-top: 5px;
+  }
+
+  .copyRight span {
+    display: block;
+    margin-top: 5px;
   }
 }
 

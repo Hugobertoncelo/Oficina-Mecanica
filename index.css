@@ -183,6 +183,39 @@ body {
   position: relative;
 }
 
+.center-image1 img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.center-image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-image img {
+  max-width: 100%;
+  height: auto;
+  animation: pulseRotate 2s infinite alternate;
+}
+
+@keyframes pulseRotate {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1.05) rotate(12deg);
+  }
+}
+
 .homeServicesContainer {
   padding-top: 5rem;
 }
