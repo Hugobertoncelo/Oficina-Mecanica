@@ -960,37 +960,50 @@
       <section class="requestForm">
         <div class="formContainer">
           <h1>📝Formulário de solicitação de consulta</h1>
-          <form action="" id="apptmntForm">
+          <form
+            action="https://formspree.io/f/xwpovezq"
+            id="apptmntForm"
+            method="POST"
+          >
             <div>
               <div class="customerInfo">
                 <h1>📜Suas informações</h1>
                 <p id="customerInfoMssg"></p>
                 <input
                   type="text"
-                  placeholder="Seu Nome*"
+                  placeholder="👨🏻‍💼 Seu Nome*"
                   name="customerName"
-                  required
                   id="customerName"
+                  required
                 />
                 <div class="phone">
                   <input
                     type="tel"
                     id="phone"
                     name="customerPhone"
-                    placeholder="Seu Telefone*"
+                    placeholder="📞 Seu Telefone*"
                     required
                   />
                 </div>
-                <input type="email" name="customerEmail" placeholder="Email" />
+                <input
+                  type="email"
+                  name="customerEmail"
+                  placeholder="📩 Email"
+                />
               </div>
               <div class="dateOfWork">
                 <h1>📅Data da visita <span>*</span></h1>
-                <input type="date" placeholder="date" id="date1" required />
-
-                <input type="time" placeholder="time" />
+                <input
+                  type="date"
+                  placeholder="date"
+                  id="date1"
+                  name="appointmentDate"
+                  required
+                />
+                <input type="time" placeholder="time" name="appointmentTime" />
                 <h1>📅Data de Preparação do Carro</h1>
-                <input type="date" />
-                <input type="time" />
+                <input type="date" name="preparationDate" />
+                <input type="time" name="preparationTime" />
               </div>
             </div>
             <div>
@@ -1000,26 +1013,29 @@
                 <input
                   type="text"
                   name="customerCarYear"
-                  placeholder="Ano do veículo*"
+                  placeholder="📅 Ano do veículo*"
                   id="vehicleYear"
                 />
                 <input
                   type="text"
                   name="customerCarMake"
-                  placeholder="Marca do veículo*"
+                  placeholder="🛡️ Marca do veículo*"
                   required
                 />
                 <input
                   type="text"
                   name="customerCarModel"
-                  placeholder="Modelo do veículo*"
+                  placeholder="🚗 Modelo do veículo*"
                   required
                 />
               </div>
               <div class="carProblem">
-                <textarea name="carProblem" cols="50" rows="7">
-Conte-nos sobre o problema/manutenção do seu carro, etc.
-                </textarea>
+                <textarea
+                  name="carProblem"
+                  cols="50"
+                  rows="7"
+                  placeholder="Conte-nos sobre o problema/manutenção do seu carro, etc."
+                ></textarea>
               </div>
               <div>
                 <button type="submit" class="synthwave-laser-button">

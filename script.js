@@ -1,5 +1,3 @@
-//fixar o navbar quando a tela abaixar
-
 window.onscroll = function () { myFunction() };
 
 var navbar = document.getElementById('navbar');
@@ -23,7 +21,6 @@ menuIcon.addEventListener('click', (event) => {
   navbar.classList.remove('sticky')
 
 })
-
 
 let burgorIconDiv = document.getElementById('burgorIconDiv');
 let burgorIcon = document.getElementById('burgorIcon')

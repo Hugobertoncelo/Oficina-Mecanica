@@ -1,9 +1,9 @@
 :root {
   --primary-color: #6a4679;
   --secondary-color: #5f27c7;
-  --appointment-color: #e40c52;
+  --appointment-color: #150368;
   --tertiary-color: #6365e6;
-  --active-color: #78223d;
+  --active-color: #150368;
   --bg-color: #22c59f;
   --white-color: white;
   --box-shadow-1: 0 15px 25px rgba(83, 30, 228, 0.3);
@@ -487,12 +487,12 @@ footer .lowerFooter {
   background-color: #7c5fff;
   z-index: 10;
   top: -1px;
-  left: 140px;
+  left: 175px;
   text-transform: uppercase;
   width: 100%;
   border-radius: 15px;
   border-bottom: none;
-  max-height: 300px;
+  max-height: 320px;
   overflow-y: auto;
 }
 
