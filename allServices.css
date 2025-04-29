@@ -1,5 +1,5 @@
 body {
-  background-color: #eef8f5;
+  background-color: var(--white-color);
 }
 
 .servicesH2 {
@@ -13,7 +13,7 @@ body {
 
 .allServicesSect {
   padding: 3rem 1rem 3rem 3rem;
-  background-color: rgb(172, 250, 250);
+  background-color: var(--bg-pages);
 }
 
 .allServicesSect > h1 {

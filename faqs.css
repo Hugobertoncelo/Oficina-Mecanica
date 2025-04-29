@@ -1,6 +1,6 @@
 .faqs {
   padding: 2rem 3rem;
-  background-color: rgb(172, 250, 250);
+  background-color: var(--bg-pages);
 }
 
 .faqs > h1 {

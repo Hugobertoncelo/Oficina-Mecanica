@@ -1,5 +1,5 @@
 .requestForm {
-  background-color: rgb(172, 250, 250);
+  background-color: var(--bg-pages);
 }
 
 form {
@@ -23,13 +23,13 @@ form > div {
 
 #customerInfoMssg {
   height: 1rem;
-  color: red;
+  color: var(--msg-info);
   padding-left: 5px;
 }
 
 #vehicleYearMssg {
   height: 1rem;
-  color: red;
+  color: var(--msg-info);
   padding-left: 5px;
 }
 
@@ -61,7 +61,7 @@ textarea {
   padding: 5px 7px;
 
   font-size: 1rem;
-  border: 1px solid black;
+  border: 1px solid var(--text-area);
   outline: none;
   margin-top: 0.7rem;
   border-radius: 10px;
@@ -100,7 +100,7 @@ form input[type="submit"]:hover {
 }
 
 .dateOfWork span {
-  color: red;
+  color: var(--msg-info);
   font-size: 1.3rem;
 }
 
@@ -115,24 +115,17 @@ form input[type="submit"]:hover {
   height: 50px;
   margin-top: 15px;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--white-color);
   background: #101020;
   border: none;
   cursor: pointer;
   letter-spacing: 2px;
-  text-shadow:
-    0 0 5px #00ffe0,
-    0 0 15px #00ffe0,
-    0 0 25px #00ffe0;
-    box-shadow:
-    inset 0 0 15px #00ffe0,
-    0 0 20px rgba(67, 16, 255, 0.7);
+  text-shadow: 0 0 5px #00ffe0, 0 0 15px #00ffe0, 0 0 25px #00ffe0;
+  box-shadow: inset 0 0 15px #00ffe0, 0 0 20px rgba(67, 16, 255, 0.7);
   overflow: hidden;
   border-radius: 10px;
   z-index: 1;
-  transition:
-    box-shadow 0.3s ease,
-    transform 0.3s ease;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .synthwave-laser-button::before,
@@ -179,11 +172,8 @@ form input[type="submit"]:hover {
 
 .synthwave-laser-button:active {
   transform: scale(0.95);
-  box-shadow:
-    inset 0 0 15px #00ffe0,
-    0 0 25px rgba(255, 0, 144, 0.7);
+  box-shadow: inset 0 0 15px #00ffe0, 0 0 25px rgba(255, 0, 144, 0.7);
 }
-
 
 @media screen and (max-width: 450px) {
   .formContainer {
@@ -221,7 +211,7 @@ form input[type="submit"]:hover {
   }
 
   input[type="date"]:before {
-    color: black;
+    color: var(--text-area);
     content: attr(placeholder) !important;
     margin-right: 0.5em;
   }
@@ -231,7 +221,7 @@ form input[type="submit"]:hover {
   }
 
   input[type="time"]:before {
-    color: black;
+    color: var(--text-area);
     content: attr(placeholder) !important;
     margin-right: 0.5em;
   }
