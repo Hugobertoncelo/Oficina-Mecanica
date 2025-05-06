@@ -491,7 +491,7 @@ footer .lowerFooter {
   border-radius: 0;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  border-bottom: 1.5px solid var(--secondary-color);
+  /*border-bottom: 1.5px solid var(--secondary-color);*/
 }
 
 .burgorTranslate {
