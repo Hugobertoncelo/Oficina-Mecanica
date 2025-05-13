@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="register.css" />
   </head>
   <body>
+    <video autoplay muted loop id="background-video">
+      <source src="./imgs/video.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeos em HTML5.
+    </video>
     <div class="pagina-cadastro">
       <div class="logo-container">
         <img src="./imgs/logo5.png" alt="Logo" />
@@ -17,34 +21,30 @@
           <label for="novo-usuario">Novo Usuário:</label>
           <input type="text" id="novo-usuario" required />
 
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+
           <label for="nova-senha">Nova Senha:</label>
           <input type="password" id="nova-senha" required />
 
           <label for="confirmar-senha">Confirmar Senha:</label>
           <input type="password" id="confirmar-senha" required />
 
-          <button type="submit" class="uiverse">
-            <div class="wrapper">
-              <span>Cadastrar</span>
-              <div class="circle circle-12"></div>
-              <div class="circle circle-11"></div>
-              <div class="circle circle-10"></div>
-              <div class="circle circle-9"></div>
-              <div class="circle circle-8"></div>
-              <div class="circle circle-7"></div>
-              <div class="circle circle-6"></div>
-              <div class="circle circle-5"></div>
-              <div class="circle circle-4"></div>
-              <div class="circle circle-3"></div>
-              <div class="circle circle-2"></div>
-              <div class="circle circle-1"></div>
-            </div>
+          <button type="submit" class="button">
+            Cadastrar
+            <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+              <path
+                clip-rule="evenodd"
+                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
           </button>
         </form>
         <p id="cadastro-mensagem"></p>
         <p><a href="login.html">Voltar para o Login</a></p>
       </div>
     </div>
+    <script src="register.js"></script>
   </body>
-  <script src="register.js"></script>
 </html>

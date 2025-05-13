@@ -6,9 +6,16 @@ body {
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
-  background-image: url("./imgs/bg-login.avif");
-  background-size: cover;
-  background-position: center;
+}
+
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .logo-container {
@@ -35,6 +42,7 @@ input[type="password"] {
   width: 100%;
   padding: 12px;
   margin: 15px 0;
+  background-color: rgba(255, 255, 255, 0.7);
   border: 1px solid #ddd;
   border-radius: 8px;
   transition: border-color 0.3s ease;
@@ -139,12 +147,4 @@ p a {
 p a:hover {
   color: #b721ff;
   text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  body {
-    background-image: url("./imgs/bg-login-mobile.jpg");
-    background-size: cover;
-    background-position: center;
-  }
 }
