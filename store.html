@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autocar</title>
+    <link rel="stylesheet" href="./css/header-footer.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/store.css" />
+    <link rel="icon" type="image/x-icon" href="/imgs/favIcon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/100f11453f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="font-family: Poppins, sans-serif">
+    <div class="home">
+      <div id="burgorMenuContainer"></div>
+      <div id="header-placeholder"></div>
+
+      <div class="cart-icon-container" id="cart-icon-container">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="cart-count-badge" class="cart-count-badge">0</span>
+      </div>
+
+      <section class="carPartsStore">
+        <div class="storeTitle">
+          <h1>Autocar Peças</h1>
+          <p>Encontre as melhores peças para o seu veículo.</p>
+        </div>
+        <div id="message-container"></div>
+
+        <div class="search-bar">
+          <div class="search-input-wrapper">
+            <input
+              type="text"
+              id="product-search"
+              placeholder="Pesquisar produtos..."
+            />
+            <i class="fas fa-search search-icon"></i>
+          </div>
+        </div>
+
+        <div class="categories-menu">
+          <button class="category-button active" data-category="all">
+            Todas as Peças
+          </button>
+          <button class="category-button" data-category="pneus">Pneus</button>
+          <button class="category-button" data-category="freios">Freios</button>
+          <button class="category-button" data-category="ignicao">
+            Ignição
+          </button>
+          <button class="category-button" data-category="suspensao">
+            Suspensão
+          </button>
+          <button class="category-button" data-category="motor">Motor</button>
+          <button class="category-button" data-category="fluidos">
+            Fluidos
+          </button>
+          <button class="category-button" data-category="escapamento">
+            Escapamento
+          </button>
+          <button class="category-button" data-category="iluminacao">
+            Iluminação
+          </button>
+        </div>
+
+        <div class="productsContainer" id="productsContainer"></div>
+
+        <div class="pagination-buttons">
+          <button id="show-less-button" class="show-less-button">
+            Mostrar Menos
+          </button>
+          <button id="show-more-button" class="show-more-button">
+            Mostrar Mais
+          </button>
+        </div>
+      </section>
+
+      <div id="cart-modal" class="cart-modal">
+        <div class="cart-modal-content">
+          <span class="close-button" id="close-cart-modal">&times;</span>
+          <h2>Carrinho de Compras</h2>
+          <div class="cart-items" id="cart-items">
+            <p id="empty-cart-message">Seu carrinho está vazio.</p>
+          </div>
+          <div class="cart-summary">
+            <p>Total: <span id="cart-total">R$ 0,00</span></p>
+            <div class="payment-method-selection">
+              <h3>Escolha a forma de pagamento:</h3>
+              <div class="payment-options-grid">
+                <label class="payment-option">
+                  <input
+                    type="radio"
+                    name="paymentMethod"
+                    value="creditCard"
+                    checked
+                  />
+                  Cartão de Crédito
+                </label>
+                <label class="payment-option">
+                  <input type="radio" name="paymentMethod" value="boleto" />
+                  Boleto Bancário
+                </label>
+                <label class="payment-option">
+                  <input type="radio" name="paymentMethod" value="pix" />
+                  Pix
+                </label>
+              </div>
+              <div id="credit-card-icons" class="credit-card-icons-container">
+                <img
+                  src="https://placehold.co/60x40/007bff/white?text=VISA"
+                  alt="Visa"
+                  class="credit-card-icon"
+                />
+                <img
+                  src="https://placehold.co/60x40/007bff/white?text=MASTERCARD"
+                  alt="Mastercard"
+                  class="credit-card-icon"
+                />
+                <img
+                  src="https://placehold.co/60x40/007bff/white?text=ELO"
+                  alt="Elo"
+                  class="credit-card-icon"
+                />
+                <img
+                  src="https://placehold.co/60x40/007bff/white?text=AMEX"
+                  alt="American Express"
+                  class="credit-card-icon"
+                />
+              </div>
+            </div>
+            <button id="checkout-button">Finalizar Compra</button>
+            <div
+              id="payment-message-container"
+              class="payment-message-container"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footerContainer"></div>
+    </div>
+    <script src="./js/header.js"></script>
+    <script src="./js/burgorMenu.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/contact.js"></script>
+    <script src="./js/products.js"></script>
+    <script src="./js/cart.js"></script>
+  </body>
+</html>

@@ -424,14 +424,28 @@ const burgorMenuHTML = `
                   margin-right: 5px;
                 "
               />
-              Perguntas frequentes</a
+              Perguntas</a
+            >
+          </li><li class="menuItem">
+            <a href="store.html"
+              ><img
+                src="https://img.icons8.com/?size=100&id=8287&format=png&color=FFFFFF"
+                alt="Ícone loja"
+                style="
+                  width: 20px;
+                  height: 20px;
+                  vertical-align: middle;
+                  margin-right: 5px;
+                "
+              />
+             Loja</a
             >
           </li>
           <li class="menuItem">
             <a href="login.html"
               ><img
                 src="https://img.icons8.com/?size=100&id=2&format=png&color=FFFFFF"
-                alt="Ícone de Perguntas Frequentes"
+                alt="Ícone login"
                 style="
                   width: 18px;
                   height: 18px;
@@ -454,7 +468,7 @@ const burgorMenuHTML = `
                   margin-right: 5px;
                 "
               />
-              Solicitar agendamento</a
+              Agendamento</a
             >
           </li>
         </ul>

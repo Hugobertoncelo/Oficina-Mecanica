@@ -507,14 +507,29 @@ document.addEventListener('DOMContentLoaded', () => {
                   margin-right: 5px;
                 "
               />
-              Perguntas frequentes
+              Perguntas
+            </a>
+          </li>
+          <li class="menuItem">
+            <a href="store.html">
+              <img
+                src="https://img.icons8.com/?size=100&id=8287&format=png&color=FFFFFF"
+                alt="loja"
+                style="
+                  width: 20px;
+                  height: 20px;
+                  vertical-align: middle;
+                  margin-right: 5px;
+                "
+              />
+              Loja
             </a>
           </li>
           <li class="menuItem">
             <a href="login.html">
               <img
                 src="https://img.icons8.com/?size=100&id=2&format=png&color=FFFFFF"
-                alt="Ícone de Perguntas Frequentes"
+                alt="login"
                 style="
                   width: 18px;
                   height: 18px;
@@ -537,7 +552,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   margin-right: 5px;
                 "
               />
-              Solicitar agendamento
+              Agendamento
             </a>
           </li>
         </ul>
