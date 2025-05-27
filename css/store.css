@@ -508,17 +508,6 @@
   color: #333;
 }
 
-.credit-card-icons-container {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
-  padding: 10px 0;
-  border-top: 1px dashed #ddd;
-  flex-wrap: wrap;
-  display: none;
-}
-
 .credit-card-icon {
   width: 60px;
   height: 40px;
@@ -718,10 +707,6 @@
 
   .payment-options-grid {
     flex-direction: column;
-  }
-
-  .credit-card-icons-container {
-    gap: 10px;
   }
 
   .credit-card-icon {
