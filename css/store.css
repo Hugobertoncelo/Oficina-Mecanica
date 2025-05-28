@@ -60,7 +60,7 @@
   justify-content: center;
   gap: 15px;
   margin-bottom: 25px;
-  flex-wrap: wrap; /* Permite a quebra de linha no desktop */
+  flex-wrap: wrap;
   padding: 0 10px;
 }
 
@@ -676,7 +676,6 @@
   .category-button {
     padding: 8px 15px;
     font-size: 0.85em;
-    min-width: 90px;
     max-width: 120px;
     width: auto;
   }
