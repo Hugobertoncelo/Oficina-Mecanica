@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="topHeader">
         <div class="logo">
           <a href="index.html">
-            <img src="imgs/logo5.png" alt="logo" width="300px" />
+            <img src="imgs/images/logo5.png" alt="logo" width="300px" />
           </a>
         </div>
         <div class="contact">

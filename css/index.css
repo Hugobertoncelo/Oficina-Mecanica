@@ -1,6 +1,6 @@
 .homeWelcome {
   height: 76vh;
-  background-image: url(../imgs/bg1.jpg);
+  background-image: url(../imgs/images/bg1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,19 +59,19 @@ body {
 
 @keyframes change {
   0% {
-    background-image: url(../imgs/bg1.jpg);
+    background-image: url(../imgs/images/bg1.jpg);
   }
   20% {
-    background-image: url(../imgs/bg2.jpg);
+    background-image: url(../imgs/images/bg2.jpg);
   }
   40% {
-    background-image: url(../imgs/bg3.jpeg);
+    background-image: url(../imgs/images/bg3.jpeg);
   }
   60% {
-    background-image: url(../imgs/bg4.webp);
+    background-image: url(../imgs/images/bg4.webp);
   }
   80% {
-    background-image: url(../imgs/bg5.webp);
+    background-image: url(../imgs/images/bg5.webp);
   }
 }
 
@@ -475,7 +475,7 @@ strong {
   border: 1px solid var(--secondary-color);
   padding: 2rem 3rem;
   box-shadow: var(--box-shadow-1);
-  background-image: url("../imgs/bg6.jpg");
+  background-image: url("../imgs/images/bg6.jpg");
   border-radius: 13px;
   color: white;
 }
